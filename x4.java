@@ -4,11 +4,10 @@ int counter=0;
 
 void setup() {
   size( 640,480 );
+  background( 0,200,250 );
 }
 
 void draw() {
-  // if (mousePressed() == 
-  background( 0,200,250 );
   showButton( button1X, button1Y, button1W, button1H );
   fill(0,0,0);
   text( "CLICK ME", button1X+button1W/5, button1Y+button1H*5/8 );
