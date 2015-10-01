@@ -13,7 +13,10 @@ void draw() {
 }
 
 void showButton( float x, float y, float w, float h ) {
-  fill( 0,255,0 );
+  float r = random(255);
+  float g = random(255);
+  float b = random(255);
+  fill( r,g,b );
   rect ( x,y, w,h );
 }
 
