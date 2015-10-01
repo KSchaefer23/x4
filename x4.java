@@ -17,10 +17,13 @@ void showButton( float x, float y, float w, float h ) {
 }
 
 void mousePressed() {
-  if ((mouseX) > (button1X) &&
+  if (mousePressed &&
+     (mouseX) > (button1X) &&
      (mouseX) < (button1X+button1W) &&
      (mouseY) > (button1Y) &&
-     (mouseY) < (button1Y+button1H)); {
+     (mouseY) < (button1Y+button1H)) {
        background( 255,0,0 );
-     }
+  } else {
+    background(0,200,250);
+  }
 }
