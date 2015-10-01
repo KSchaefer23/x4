@@ -1,6 +1,4 @@
-
 float button1X=280, button1Y=200, button1W=100, button1H=60;
-int counter=0;
 
 void setup() {
   size( 640,480 );
