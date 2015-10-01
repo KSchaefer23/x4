@@ -1,4 +1,5 @@
 float button1X=280, button1Y=200, button1W=100, button1H=60;
+int r,g,b;
 
 void setup() {
   size( 640,480 );
@@ -22,7 +23,10 @@ void mousePressed() {
      (mouseX) < (button1X+button1W) &&
      (mouseY) > (button1Y) &&
      (mouseY) < (button1Y+button1H)) {
-       background( 255,0,0 );
+       float r = random(255);
+       float g = random(255);
+       float b = random(255);
+       background( r,g,b );
   } else {
     background(0,200,250);
   }
