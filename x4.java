@@ -31,6 +31,6 @@ void mousePressed() {
        float b = random(255);
        background( r,g,b );
   } else {
-    background(0,200,250);
+    //background(0,200,250); // Resets color if clicked off button
   }
 }
